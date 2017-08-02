@@ -1,0 +1,52 @@
+/**layer Reset*/
+.layui-layer{
+	-webkit-border-radius: 8px!important;
+	-moz-border-radius: 8px!important;
+	border-radius: 8px!important;
+	-webkit-box-shadow: 2px 2px 22px rgba(0,0,0,.3)!important;
+	-moz-box-shadow: 2px 2px 22px rgba(0,0,0,.3)!important;
+	box-shadow: 2px 2px 22px rgba(0,0,0,.3)!important;
+}
+.layui-layer-title{
+	-webkit-border-top-left-radius: 8px!important;
+	-moz-border-top-left-radius: 8px!important;
+	border-top-left-radius: 8px!important;
+	-webkit-border-top-right-radius: 8px!important;
+	-moz-border-top-right-radius: 8px!important;
+	border-top-right-radius: 8px!important;
+	height: 32px!important;
+	color: #666!important;
+	line-height: 32px!important;
+}
+.layui-layer-title{
+	background: #e1e1e1!important;
+	padding-left: 10px!important;
+}
+.layui-layer-title i{
+	width: 18px;
+    height: 18px;
+    background: #1ab394;
+    color: #fff;
+    text-align: center;
+    line-height: 18px;
+    font-size: 10px;
+    -webkit-border-radius: 3px!important;
+	-moz-border-radius: 3px!important;
+	border-radius: 3px!important;
+	cursor: pointer;
+}
+.cur_layer .layui-layer-title{
+	background: #ccc!important;
+	/*color: #fff!important;*/
+}
+.layui-layer-setwin{
+	top: 10px!important;
+	right: 5px!important;
+}
+.layui-layer-content{
+	border-bottom-left-radius: 8px!important;
+    border-bottom-right-radius: 8px!important;
+}
+.box_layout{ 
+	height: 100%;
+}

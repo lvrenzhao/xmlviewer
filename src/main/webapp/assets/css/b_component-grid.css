@@ -1,0 +1,16 @@
+.ui-jqgrid-btable > thead > tr > th, 
+.ui-jqgrid-btable  > tbody > tr > th,
+.ui-jqgrid-btable > tfoot > tr > th,
+.ui-jqgrid-btable > thead > tr > td, 
+.ui-jqgrid-btable > tbody > tr > td, 
+.ui-jqgrid-btable > tfoot > tr > td{
+	padding: 5px 8px;
+}
+.ui-jqgrid tr.jqgrow td{ padding-right: 8px;}
+.ui-jqgrid .ui-jqgrid-htable thead th{
+	padding-right: 8px;
+	text-align: center;
+}
+td#input_pager_test,select.ui-pg-selbox{
+	padding-top: 5px!important;
+}

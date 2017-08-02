@@ -1,0 +1,476 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ConstructProject Code="00001" ConstructVersion="1" Name="合百集团蚌埠百大外立面装饰工程【装饰】" Version="1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<TenderInfo BudgetDate="2017-05-02" Budgeteer="asdf" BudgeteerNO="" Deposit="5" Duration="50" ProjectManager="张建东" QualityPromise="合格" SuretyKind="2" Tenderee="" Tenderer="常州市耀华装饰有限公司" TendererDb="" Total="276.913001"/>
+	<Building Name="合百集团蚌埠百大外立面装饰工程【装饰】">
+		<JobList Amount="2769130.01" BQEistStyle="1" DogNum="9526700000000850" JobNo="1" LaborRate="0" LawfeeAmount="66921.08" MachineKey="2C-56-DC-4F-57-17" Name="11" ProjectType="3" ProvisionalAmount="0" SafetyAndCivilizationMeasuresAmount="22240.59" SoftName="江苏国泰新点软件有限公司" Speciality="2" TaxAmount="274418.29" UnPriceResAmount="0">
+			<SummaryTable>
+				<SummaryItem CostBase="2234686.61" CostCode="" CostKind="2" CostRate="1.00000000" Name="分部分项工程量清单计价合计" OrdCode="1" Remark="" Total="2234686.61"/>
+				<SummaryItem CostBase="193104.03" CostCode="" CostKind="3" CostRate="1.00000000" Name="措施项目清单计价合计" OrdCode="2" Remark="" Total="193104.03"/>
+				<SummaryItem CostBase="0.00" CostCode="" CostKind="4" CostRate="1.00000000" Name="其他项目清单计价合计" OrdCode="3" Remark="" Total="0.00"/>
+				<SummaryItem CostBase="66921.08" CostCode="" CostKind="5" CostRate="1.00000000" Name="规费" OrdCode="4" Remark="" Total="66921.08"/>
+				<SummaryItem CostBase="2494711.72" CostCode="" CostKind="6" CostRate="0.11000000" Name="税金" OrdCode="5" Remark="" Total="274418.29"/>
+				<SummaryItem CostBase="2769130.01" CostCode="" CostKind="1" CostRate="1.00000000" Name="合计" OrdCode="6" Remark="" Total="2769130.01"/>
+			</SummaryTable>
+			<LawfeeAndTaxTable>
+				<LawfeeAndTaxItem CostBase="66921.08" CostCode="" CostKind="1" CostRate="1.00000000" Name="规费" OrdCode="一" Total="66921.08">
+					<LawfeeAndTaxItem CostBase="0.00" CostCode="" CostKind="1.1" CostRate="1.00000000" Name="工程排污费" OrdCode="1" Total="0.00"/>
+					<LawfeeAndTaxItem CostBase="49571.17" CostCode="" CostKind="1.2" CostRate="1.00000000" Name="社会保障费" OrdCode="2" Total="49571.17">
+						<LawfeeAndTaxItem CostBase="165237.24" CostCode="" CostKind="1.2.1" CostRate="0.20000000" Name="养老保险费" OrdCode="(1)" Total="33047.45"/>
+						<LawfeeAndTaxItem CostBase="165237.24" CostCode="" CostKind="1.2.2" CostRate="0.02000000" Name="失业保险费" OrdCode="(2)" Total="3304.74"/>
+						<LawfeeAndTaxItem CostBase="165237.24" CostCode="" CostKind="1.2.3" CostRate="0.08000000" Name="医疗保险费" OrdCode="(3)" Total="13218.98"/>
+					</LawfeeAndTaxItem>
+					<LawfeeAndTaxItem CostBase="165237.24" CostCode="" CostKind="1.3" CostRate="0.10000000" Name="住房公积金" OrdCode="3" Total="16523.72"/>
+					<LawfeeAndTaxItem CostBase="165237.24" CostCode="" CostKind="1.6" CostRate="0.00500000" Name="工伤保险费" OrdCode="6" Total="826.19"/>
+				</LawfeeAndTaxItem>
+				<LawfeeAndTaxItem CostBase="2494711.72" CostCode="" CostKind="2" CostRate="0.11000000" Name="税金" OrdCode="二" Total="274418.29"/>
+				<LawfeeAndTaxItem CostBase="341339.37" CostCode="" CostKind="3" CostRate="1.00" Name="合计" OrdCode="三" Total="341339.37"/>
+			</LawfeeAndTaxTable>
+			<BQTitleInfoArray>
+				<BQTitleInfo Amount="0" Code="B1" Name="B.1 楼地面工程" ProvisionalAmount="0"/>
+				<BQTitleInfo Amount="0" Code="B2" Name="B.2 墙、柱面工程" ProvisionalAmount="0"/>
+				<BQTitleInfo Amount="0" Code="B3" Name="B.3 天棚工程" ProvisionalAmount="0"/>
+				<BQTitleInfo Amount="0" Code="B4" Name="B.4 门窗工程" ProvisionalAmount="0"/>
+				<BQTitleInfo Amount="0" Code="B5" Name="B.5 油漆、涂料、裱糊工程" ProvisionalAmount="0"/>
+				<BQTitleInfo Amount="0" Code="B6" Name="B.6 其他工程" ProvisionalAmount="0"/>
+			</BQTitleInfoArray>
+			<BQTable>
+				<BQTitle Amount="2234686.61" Code="" Name="分部分项清单" ProvisionalAmount="0" Remark="" UnPriceResAmount="0">
+					<BQItem Addup="601099.350162" AttrAndWork="1、窗类型:断热铝合金钢化玻璃推拉窗（含异形斜拼窗） 2、框材质:GT90系列铝型材材质采用6063--T5及部分T6型材，壁厚1.4mm断热型材.表面粉末喷涂,颜色甲方自定 3、嵌缝、塞口材料种类:硅酮结构密封胶和硅酮耐候密封胶通过国产强制产品认证的合格产品 4、玻璃品种、厚度:6low-e+12A+6mm中空钢化玻璃 5、五金材料、品种、规格:五金配全，开启五金配件选用点锁；国产优质产品 6、要求:不再区分窗子大小,综合按平方报价 7、其他:详见图纸、图集、答疑、招标文件、政府相关文件、规范等其它资料，满足验收要求 " Code="020406002001" LaborRate="30.11" MachineRate="1.40" MainBQItem="false" MaterialRate="458.00" Name="断热铝合金推拉窗" OverheadRate="5.67" ProfitRate="3.78" Quantity="1204.694800" Rate="498.964012" Remark="" RiskRate="0.00" TradeSummary="2000" Unit="m2">
+						<NormTable>
+							<NormItem Code="B4-20" LaborRate="30.11" MachineRate="1.40" MaterialRate="458.00" Name="推拉窗 双扇 带亮" NormDBID="15" NormDBName="安徽省装饰装修工程消耗量定额(2006)" OverheadRate="5.67" ProfitRate="3.78" Quantity="12.046948" Rate="498.96" Remark="" RiskRate="0.00" StandardCode="" Total="6010.99" Unit="100m2">
+								<ResUsageTable>
+									<ResUsageItem ResourceID="1" Usage="1170.240529"/>
+									<ResUsageItem ResourceID="34" Usage="19.636525"/>
+									<ResUsageItem ResourceID="35" Usage="167.332108"/>
+									<ResUsageItem ResourceID="17" Usage="4949.609055"/>
+									<ResUsageItem ResourceID="22" Usage="1122.173206"/>
+									<ResUsageItem ResourceID="21" Usage="13385.484392"/>
+									<ResUsageItem ResourceID="16" Usage="12255.119261"/>
+									<ResUsageItem ResourceID="10" Usage="83.605819"/>
+									<ResUsageItem ResourceID="7" Usage="6692.802431"/>
+									<ResUsageItem ResourceID="13" Usage="11313.047928"/>
+									<ResUsageItem ResourceID="25" Usage="527.415383"/>
+									<ResUsageItem ResourceID="2" Usage="510.670126"/>
+									<ResUsageItem ResourceID="18" Usage="476.456793"/>
+									<ResUsageItem ResourceID="4" Usage="1204.694800"/>
+									<ResUsageItem ResourceID="32" Usage="1101.297773"/>
+								</ResUsageTable>
+							</NormItem>
+						</NormTable>
+						<RateGross>
+							<RateGrossItem AddUp="489.51" CostBase="489.51" CostCode="" CostKind="0" CostRate="1" Name="直接费" OrdCode="1" Remark=""/>
+							<RateGrossItem AddUp="30.11" CostBase="30.11" CostCode="" CostKind="1" CostRate="1" Name="人工费" OrdCode="2" Remark=""/>
+							<RateGrossItem AddUp="458.00" CostBase="458.00" CostCode="" CostKind="2" CostRate="1" Name="材料费" OrdCode="3" Remark=""/>
+							<RateGrossItem AddUp="1.40" CostBase="1.40" CostCode="" CostKind="3" CostRate="1" Name="机械费" OrdCode="4" Remark=""/>
+							<RateGrossItem AddUp="5.67" CostBase="5.67" CostCode="" CostKind="6" CostRate="0.18" Name="管理费" OrdCode="5" Remark=""/>
+							<RateGrossItem AddUp="3.78" CostBase="3.78" CostCode="" CostKind="7" CostRate="0.12" Name="利润" OrdCode="6" Remark=""/>
+							<RateGrossItem AddUp="0.00" CostBase="0" CostCode="" CostKind="0" CostRate="0." Name="风险费" OrdCode="7" Remark=""/>
+							<RateGrossItem AddUp="498.96" CostBase="498.96" CostCode="" CostKind="8" CostRate="1" Name="综合单价" OrdCode="8" Remark=""/>
+						</RateGross>
+						<ResUsageTable>
+							<ResUsageItem ResourceID="1" Usage="1170.240529"/>
+							<ResUsageItem ResourceID="34" Usage="19.636525"/>
+							<ResUsageItem ResourceID="35" Usage="167.332108"/>
+							<ResUsageItem ResourceID="2" Usage="510.670126"/>
+							<ResUsageItem ResourceID="4" Usage="1204.694800"/>
+							<ResUsageItem ResourceID="7" Usage="6692.802431"/>
+							<ResUsageItem ResourceID="10" Usage="83.605819"/>
+							<ResUsageItem ResourceID="13" Usage="11313.047928"/>
+							<ResUsageItem ResourceID="16" Usage="12255.119261"/>
+							<ResUsageItem ResourceID="17" Usage="4949.609055"/>
+							<ResUsageItem ResourceID="18" Usage="476.456793"/>
+							<ResUsageItem ResourceID="21" Usage="13385.484392"/>
+							<ResUsageItem ResourceID="22" Usage="1122.173206"/>
+							<ResUsageItem ResourceID="25" Usage="527.415383"/>
+							<ResUsageItem ResourceID="32" Usage="1101.297773"/>
+						</ResUsageTable>
+					</BQItem>
+					<BQItem Addup="737218.336880" AttrAndWork="1、埋件材料种类、规格:基层后置锚板、M12*160化学螺栓、M12*110不锈钢螺栓、M16*90不锈钢螺栓、M12*30不锈钢螺栓及热镀锌连接件等制作安装 2、骨架材料种类、规格、中距:140系列铝合金型材，铝型材材质采用6063--T5及部分T6型材；芯套EM0971，立挺EM0970，立挺AM1411，转角AM1141及横挺EM4133及(配横梁盖板上钉) 3、铝合金型材表面处理:铝合金型材室外可视面表面为氟碳喷涂，室内可视面表面为粉末喷涂或阳极氧化，具体颜色由业主定 4、面层材料品种、规格:幕墙玻璃为6low-e+12A+6中空钢化玻璃+各类盖板及压板，含开启扇部分 5、固定方式:铝合金副框AM1734+各类压板固定 6、层间防火材料、规格:在层间设置防火层，防火层厚度100mm,采用1.5厚镀锌钢板封闭内填密实的阻燃防火岩棉,并用防火密封胶堵缝 7、嵌封、塞口材料种类:密封胶条、胶垫、硅酮结构密封胶及硅酮耐候密封胶等 8、幕窗五金材料、品种、规格:五金配全，开启五金配件选用点锁；幕墙中的五金件除注明不锈钢件外均为热镀锌件，不锈钢件应符合国家标准及相关行业标准的要求 9、幕窗:开启外框和开启窗扇等用材综合计入单价 10、耐腐蚀设计:在两种不同金属材料接触的部位设置环氧树脂垫片，防止电化学腐蚀 11、幕墙防雷接地:幕墙在每隔二层的层高处用直径12mm镀锌圆钢连接防雷均压两端接建筑防雷引下线，幕墙防雷系统接地电阻同建筑主体防雷系统接地电阻（不大于4欧姆） 12、防噪音设计:幕墙在金属与金属直接接触可能产生噪声的地方均设有环氧树脂垫片 13、具体做法:详见大样JD01-JD15 14、其他:详见图纸、图集、答疑、招标文件、政府相关文件、规范等其它资料，满足验收要求 " Code="020210002001" LaborRate="58.99" MachineRate="11.11" MainBQItem="false" MaterialRate="592.87" Name="竖明横隐玻璃幕墙【带装饰造型盖板】" OverheadRate="12.62" ProfitRate="8.41" Quantity="1077.800000" Rate="684.002910" Remark="" RiskRate="0.00" TradeSummary="2000" Unit="m2">
+						<NormTable>
+							<NormItem Code="B2-392备注1" LaborRate="58.99" MachineRate="11.11" MaterialRate="592.87" Name="玻璃幕墙 玻璃规格1.6m×0.9m 半隐框" NormDBID="15" NormDBName="安徽省装饰装修工程消耗量定额(2006)" OverheadRate="12.62" ProfitRate="8.41" Quantity="10.778000" Rate="684.00" Remark="" RiskRate="0.00" StandardCode="" Total="7372.18" Unit="100m2">
+								<ResUsageTable>
+									<ResUsageItem ResourceID="1" Usage="2051.053400"/>
+									<ResUsageItem ResourceID="37" Usage="10.346880"/>
+									<ResUsageItem ResourceID="36" Usage="29.100600"/>
+									<ResUsageItem ResourceID="33" Usage="86.224000"/>
+									<ResUsageItem ResourceID="35" Usage="26.729440"/>
+									<ResUsageItem ResourceID="38" Usage="14.945718"/>
+									<ResUsageItem ResourceID="23" Usage="1071.117640"/>
+									<ResUsageItem ResourceID="27" Usage="98.079800"/>
+									<ResUsageItem ResourceID="5" Usage="1431.965080"/>
+									<ResUsageItem ResourceID="6" Usage="1431.965080"/>
+									<ResUsageItem ResourceID="28" Usage="24248.344400"/>
+									<ResUsageItem ResourceID="8" Usage="2186.532860"/>
+									<ResUsageItem ResourceID="20" Usage="3446.696620"/>
+									<ResUsageItem ResourceID="26" Usage="4538.076900"/>
+									<ResUsageItem ResourceID="9" Usage="258.672000"/>
+									<ResUsageItem ResourceID="15" Usage="12372.605100"/>
+									<ResUsageItem ResourceID="11" Usage="241.966100"/>
+									<ResUsageItem ResourceID="19" Usage="269.450000"/>
+									<ResUsageItem ResourceID="32" Usage="829.618777"/>
+								</ResUsageTable>
+							</NormItem>
+						</NormTable>
+						<RateGross>
+							<RateGrossItem AddUp="662.97" CostBase="662.97" CostCode="" CostKind="0" CostRate="1" Name="直接费" OrdCode="1" Remark=""/>
+							<RateGrossItem AddUp="58.99" CostBase="58.99" CostCode="" CostKind="1" CostRate="1" Name="人工费" OrdCode="2" Remark=""/>
+							<RateGrossItem AddUp="592.87" CostBase="592.87" CostCode="" CostKind="2" CostRate="1" Name="材料费" OrdCode="3" Remark=""/>
+							<RateGrossItem AddUp="11.11" CostBase="11.11" CostCode="" CostKind="3" CostRate="1" Name="机械费" OrdCode="4" Remark=""/>
+							<RateGrossItem AddUp="12.62" CostBase="12.62" CostCode="" CostKind="6" CostRate="0.18" Name="管理费" OrdCode="5" Remark=""/>
+							<RateGrossItem AddUp="8.41" CostBase="8.41" CostCode="" CostKind="7" CostRate="0.12" Name="利润" OrdCode="6" Remark=""/>
+							<RateGrossItem AddUp="0.00" CostBase="0" CostCode="" CostKind="0" CostRate="0." Name="风险费" OrdCode="7" Remark=""/>
+							<RateGrossItem AddUp="684.00" CostBase="684.00" CostCode="" CostKind="8" CostRate="1" Name="综合单价" OrdCode="8" Remark=""/>
+						</RateGross>
+						<ResUsageTable>
+							<ResUsageItem ResourceID="1" Usage="2051.053400"/>
+							<ResUsageItem ResourceID="33" Usage="86.224000"/>
+							<ResUsageItem ResourceID="35" Usage="26.729440"/>
+							<ResUsageItem ResourceID="36" Usage="29.100600"/>
+							<ResUsageItem ResourceID="37" Usage="10.346880"/>
+							<ResUsageItem ResourceID="38" Usage="14.945718"/>
+							<ResUsageItem ResourceID="5" Usage="1431.965080"/>
+							<ResUsageItem ResourceID="6" Usage="1431.965080"/>
+							<ResUsageItem ResourceID="8" Usage="2186.532860"/>
+							<ResUsageItem ResourceID="9" Usage="258.672000"/>
+							<ResUsageItem ResourceID="11" Usage="241.966100"/>
+							<ResUsageItem ResourceID="15" Usage="12372.605100"/>
+							<ResUsageItem ResourceID="19" Usage="269.450000"/>
+							<ResUsageItem ResourceID="20" Usage="3446.696620"/>
+							<ResUsageItem ResourceID="23" Usage="1071.117640"/>
+							<ResUsageItem ResourceID="26" Usage="4538.076900"/>
+							<ResUsageItem ResourceID="27" Usage="98.079800"/>
+							<ResUsageItem ResourceID="28" Usage="24248.344400"/>
+							<ResUsageItem ResourceID="32" Usage="829.618777"/>
+						</ResUsageTable>
+					</BQItem>
+					<BQItem Addup="657069.250110" AttrAndWork="1、埋件材料种类、规格:基层后置锚板、M12*160化学螺栓、M12*110不锈钢螺栓、M16*90不锈钢螺栓、M12*30不锈钢螺栓及热镀锌连接件等制作安装 2、骨架材料种类、规格、中距:140系列铝合金型材，铝型材材质采用6063--T5及部分T6型材；芯套EM0971，立挺EM0970，立挺AM1411，转角AM1141及横挺EM4133及(配横梁盖板上钉) 3、铝合金型材表面处理:铝合金型材室外可视面表面为氟碳喷涂，室内可视面表面为粉末喷涂或阳极氧化，具体颜色由业主定 4、面层材料品种、规格:幕墙玻璃为6low-e+12A+6中空钢化弧形玻璃+各类盖板及压板，含开启扇部分 5、固定方式:铝合金副框AM1734+各类压板固定 6、层间防火材料、规格:在层间设置防火层，防火层厚度100mm,采用1.5厚镀锌钢板封闭内填密实的阻燃防火岩棉,并用防火密封胶堵缝 7、嵌封、塞口材料种类:密封胶条、胶垫、硅酮结构密封胶及硅酮耐候密封胶等 8、幕窗五金材料、品种、规格:五金配全，开启五金配件选用点锁；幕墙中的五金件除注明不锈钢件外均为热镀锌件，不锈钢件应符合国家标准及相关行业标准的要求 9、幕窗:开启外框和开启窗扇等用材综合计入单价 10、耐腐蚀设计:在两种不同金属材料接触的部位设置环氧树脂垫片，防止电化学腐蚀 11、幕墙防雷接地:幕墙在每隔二层的层高处用直径12mm镀锌圆钢连接防雷均压两端接建筑防雷引下线，幕墙防雷系统接地电阻同建筑主体防雷系统接地电阻（不大于4欧姆） 12、防噪音设计:幕墙在金属与金属直接接触可能产生噪声的地方均设有环氧树脂垫片 13、具体做法:详见大样JD01-JD15 14、其他:详见图纸、图集、答疑、招标文件、政府相关文件、规范等其它资料，满足验收要求 " Code="020210002002" LaborRate="58.99" MachineRate="11.11" MainBQItem="false" MaterialRate="710.60" Name="竖明横隐玻弧形璃幕墙【带装饰造型盖板】" OverheadRate="12.62" ProfitRate="8.41" Quantity="819.560000" Rate="801.734162" Remark="" RiskRate="0.00" TradeSummary="2000" Unit="m2">
+						<NormTable>
+							<NormItem Code="B2-392备注1" LaborRate="58.99" MachineRate="11.11" MaterialRate="710.60" Name="玻璃幕墙 玻璃规格1.6m×0.9m 半隐框" NormDBID="15" NormDBName="安徽省装饰装修工程消耗量定额(2006)" OverheadRate="12.62" ProfitRate="8.41" Quantity="8.195600" Rate="801.73" Remark="" RiskRate="0.00" StandardCode="" Total="6570.69" Unit="100m2">
+								<ResUsageTable>
+									<ResUsageItem ResourceID="1" Usage="1559.622680"/>
+									<ResUsageItem ResourceID="37" Usage="7.867776"/>
+									<ResUsageItem ResourceID="36" Usage="22.128120"/>
+									<ResUsageItem ResourceID="33" Usage="65.564800"/>
+									<ResUsageItem ResourceID="35" Usage="20.325088"/>
+									<ResUsageItem ResourceID="38" Usage="11.364736"/>
+									<ResUsageItem ResourceID="24" Usage="814.478728"/>
+									<ResUsageItem ResourceID="27" Usage="74.579960"/>
+									<ResUsageItem ResourceID="5" Usage="1088.867416"/>
+									<ResUsageItem ResourceID="6" Usage="1088.867416"/>
+									<ResUsageItem ResourceID="28" Usage="18438.460880"/>
+									<ResUsageItem ResourceID="3" Usage="819.560000"/>
+									<ResUsageItem ResourceID="8" Usage="1662.641372"/>
+									<ResUsageItem ResourceID="20" Usage="2620.870924"/>
+									<ResUsageItem ResourceID="26" Usage="3450.757380"/>
+									<ResUsageItem ResourceID="9" Usage="196.694400"/>
+									<ResUsageItem ResourceID="15" Usage="9408.139020"/>
+									<ResUsageItem ResourceID="11" Usage="183.991220"/>
+									<ResUsageItem ResourceID="19" Usage="204.890000"/>
+									<ResUsageItem ResourceID="32" Usage="756.114115"/>
+								</ResUsageTable>
+							</NormItem>
+						</NormTable>
+						<RateGross>
+							<RateGrossItem AddUp="780.70" CostBase="780.70" CostCode="" CostKind="0" CostRate="1" Name="直接费" OrdCode="1" Remark=""/>
+							<RateGrossItem AddUp="58.99" CostBase="58.99" CostCode="" CostKind="1" CostRate="1" Name="人工费" OrdCode="2" Remark=""/>
+							<RateGrossItem AddUp="710.60" CostBase="710.60" CostCode="" CostKind="2" CostRate="1" Name="材料费" OrdCode="3" Remark=""/>
+							<RateGrossItem AddUp="11.11" CostBase="11.11" CostCode="" CostKind="3" CostRate="1" Name="机械费" OrdCode="4" Remark=""/>
+							<RateGrossItem AddUp="12.62" CostBase="12.62" CostCode="" CostKind="6" CostRate="0.18" Name="管理费" OrdCode="5" Remark=""/>
+							<RateGrossItem AddUp="8.41" CostBase="8.41" CostCode="" CostKind="7" CostRate="0.12" Name="利润" OrdCode="6" Remark=""/>
+							<RateGrossItem AddUp="0.00" CostBase="0" CostCode="" CostKind="0" CostRate="0." Name="风险费" OrdCode="7" Remark=""/>
+							<RateGrossItem AddUp="801.73" CostBase="801.73" CostCode="" CostKind="8" CostRate="1" Name="综合单价" OrdCode="8" Remark=""/>
+						</RateGross>
+						<ResUsageTable>
+							<ResUsageItem ResourceID="1" Usage="1559.622680"/>
+							<ResUsageItem ResourceID="33" Usage="65.564800"/>
+							<ResUsageItem ResourceID="35" Usage="20.325088"/>
+							<ResUsageItem ResourceID="36" Usage="22.128120"/>
+							<ResUsageItem ResourceID="37" Usage="7.867776"/>
+							<ResUsageItem ResourceID="38" Usage="11.364736"/>
+							<ResUsageItem ResourceID="3" Usage="819.560000"/>
+							<ResUsageItem ResourceID="5" Usage="1088.867416"/>
+							<ResUsageItem ResourceID="6" Usage="1088.867416"/>
+							<ResUsageItem ResourceID="8" Usage="1662.641372"/>
+							<ResUsageItem ResourceID="9" Usage="196.694400"/>
+							<ResUsageItem ResourceID="11" Usage="183.991220"/>
+							<ResUsageItem ResourceID="15" Usage="9408.139020"/>
+							<ResUsageItem ResourceID="19" Usage="204.890000"/>
+							<ResUsageItem ResourceID="20" Usage="2620.870924"/>
+							<ResUsageItem ResourceID="24" Usage="814.478728"/>
+							<ResUsageItem ResourceID="26" Usage="3450.757380"/>
+							<ResUsageItem ResourceID="27" Usage="74.579960"/>
+							<ResUsageItem ResourceID="28" Usage="18438.460880"/>
+							<ResUsageItem ResourceID="32" Usage="756.114115"/>
+						</ResUsageTable>
+					</BQItem>
+					<BQItem Addup="149299.676510" AttrAndWork="1、主骨架:主骨架采用60*80*4钢方管，横骨架采用5#角钢,弧处采用50*50*3钢方管，型钢材质为Q235B低碳钢,表面热浸镀锌处理,镀锌层厚度≥45μm，喷涂厚度≥65μm。 2、面层:2.5mm铝单板，表面采用氟碳喷涂三涂，平均涂层厚度≥30μm 3、嵌缝、塞口:硅酮结构密封胶和硅酮耐候密封胶通过国产强制产品认证的合格产品 4、具体做法:详见大样JD01-JD15 5、其他:详见图纸、图集、答疑、招标文件、政府相关文件、规范等其它资料，满足验收要求 " Code="020210001001" LaborRate="60.70" MachineRate="10.38" MainBQItem="false" MaterialRate="439.77" Name="铝单板封边（含顶层及底层及侧边各类铝板封边）" OverheadRate="12.79" ProfitRate="8.53" Quantity="280.550000" Rate="532.167801" Remark="" RiskRate="0.00" TradeSummary="2000" Unit="m2">
+						<NormTable>
+							<NormItem Code="B2-395备注1" LaborRate="60.70" MachineRate="10.38" MaterialRate="439.77" Name="铝板幕墙. 铝单板" NormDBID="15" NormDBName="安徽省装饰装修工程消耗量定额(2006)" OverheadRate="12.79" ProfitRate="8.53" Quantity="2.805500" Rate="532.17" Remark="" RiskRate="0.00" StandardCode="" Total="1493.00" Unit="100m2">
+								<ResUsageTable>
+									<ResUsageItem ResourceID="1" Usage="549.316900"/>
+									<ResUsageItem ResourceID="36" Usage="7.574850"/>
+									<ResUsageItem ResourceID="33" Usage="22.444000"/>
+									<ResUsageItem ResourceID="35" Usage="6.957640"/>
+									<ResUsageItem ResourceID="38" Usage="3.634175"/>
+									<ResUsageItem ResourceID="12" Usage="286.161000"/>
+									<ResUsageItem ResourceID="27" Usage="25.530050"/>
+									<ResUsageItem ResourceID="5" Usage="372.738730"/>
+									<ResUsageItem ResourceID="6" Usage="372.738730"/>
+									<ResUsageItem ResourceID="28" Usage="6311.813900"/>
+									<ResUsageItem ResourceID="8" Usage="571.227855"/>
+									<ResUsageItem ResourceID="20" Usage="713.691145"/>
+									<ResUsageItem ResourceID="9" Usage="67.332000"/>
+									<ResUsageItem ResourceID="14" Usage="1769.709400"/>
+									<ResUsageItem ResourceID="11" Usage="23.033155"/>
+									<ResUsageItem ResourceID="19" Usage="64.217895"/>
+									<ResUsageItem ResourceID="32" Usage="160.183083"/>
+								</ResUsageTable>
+							</NormItem>
+						</NormTable>
+						<RateGross>
+							<RateGrossItem AddUp="510.85" CostBase="510.85" CostCode="" CostKind="0" CostRate="1" Name="直接费" OrdCode="1" Remark=""/>
+							<RateGrossItem AddUp="60.70" CostBase="60.70" CostCode="" CostKind="1" CostRate="1" Name="人工费" OrdCode="2" Remark=""/>
+							<RateGrossItem AddUp="439.77" CostBase="439.77" CostCode="" CostKind="2" CostRate="1" Name="材料费" OrdCode="3" Remark=""/>
+							<RateGrossItem AddUp="10.38" CostBase="10.38" CostCode="" CostKind="3" CostRate="1" Name="机械费" OrdCode="4" Remark=""/>
+							<RateGrossItem AddUp="12.79" CostBase="12.79" CostCode="" CostKind="6" CostRate="0.18" Name="管理费" OrdCode="5" Remark=""/>
+							<RateGrossItem AddUp="8.53" CostBase="8.53" CostCode="" CostKind="7" CostRate="0.12" Name="利润" OrdCode="6" Remark=""/>
+							<RateGrossItem AddUp="0.00" CostBase="0" CostCode="" CostKind="0" CostRate="0." Name="风险费" OrdCode="7" Remark=""/>
+							<RateGrossItem AddUp="532.17" CostBase="532.17" CostCode="" CostKind="8" CostRate="1" Name="综合单价" OrdCode="8" Remark=""/>
+						</RateGross>
+						<ResUsageTable>
+							<ResUsageItem ResourceID="1" Usage="549.316900"/>
+							<ResUsageItem ResourceID="33" Usage="22.444000"/>
+							<ResUsageItem ResourceID="35" Usage="6.957640"/>
+							<ResUsageItem ResourceID="36" Usage="7.574850"/>
+							<ResUsageItem ResourceID="38" Usage="3.634175"/>
+							<ResUsageItem ResourceID="5" Usage="372.738730"/>
+							<ResUsageItem ResourceID="6" Usage="372.738730"/>
+							<ResUsageItem ResourceID="8" Usage="571.227855"/>
+							<ResUsageItem ResourceID="9" Usage="67.332000"/>
+							<ResUsageItem ResourceID="11" Usage="23.033155"/>
+							<ResUsageItem ResourceID="12" Usage="286.161000"/>
+							<ResUsageItem ResourceID="14" Usage="1769.709400"/>
+							<ResUsageItem ResourceID="19" Usage="64.217895"/>
+							<ResUsageItem ResourceID="20" Usage="713.691145"/>
+							<ResUsageItem ResourceID="27" Usage="25.530050"/>
+							<ResUsageItem ResourceID="28" Usage="6311.813900"/>
+							<ResUsageItem ResourceID="32" Usage="160.183083"/>
+						</ResUsageTable>
+					</BQItem>
+					<BQItem Addup="50000.000000" AttrAndWork="1、检测内容:幕墙现场拉拔试验及四性检测（气密、水密、风压、平面变型） 2、其他:详见图纸、图集、答疑、招标文件、政府相关文件、规范等其它资料，满足验收要求 " Code="020210001002" LaborRate="0.00" MachineRate="0.00" MainBQItem="false" MaterialRate="50000.00" Name="玻璃幕墙检测" OverheadRate="0.00" ProfitRate="0.00" Quantity="1.000000" Rate="50000.000000" Remark="" RiskRate="0.00" TradeSummary="2000" Unit="项">
+						<NormTable>
+							<NormItem Code="D00001" LaborRate="0.00" MachineRate="0.00" MaterialRate="50000.00" Name="幕墙四性检测费" NormDBID="0" NormDBName="补充定额" OverheadRate="0.00" ProfitRate="0.00" Quantity="1.000000" Rate="50000.00" Remark="" RiskRate="0.00" StandardCode="" Total="50000.00" Unit="项">
+								<ResUsageTable>
+									<ResUsageItem ResourceID="29" Usage="1.000000"/>
+								</ResUsageTable>
+							</NormItem>
+						</NormTable>
+						<RateGross>
+							<RateGrossItem AddUp="50000.00" CostBase="50000.00" CostCode="" CostKind="0" CostRate="1" Name="直接费" OrdCode="1" Remark=""/>
+							<RateGrossItem AddUp="0.00" CostBase="0.00" CostCode="" CostKind="1" CostRate="1" Name="人工费" OrdCode="2" Remark=""/>
+							<RateGrossItem AddUp="50000.00" CostBase="50000.00" CostCode="" CostKind="2" CostRate="1" Name="材料费" OrdCode="3" Remark=""/>
+							<RateGrossItem AddUp="0.00" CostBase="0.00" CostCode="" CostKind="3" CostRate="1" Name="机械费" OrdCode="4" Remark=""/>
+							<RateGrossItem AddUp="0.00" CostBase="0.00" CostCode="" CostKind="6" CostRate="0.18" Name="管理费" OrdCode="5" Remark=""/>
+							<RateGrossItem AddUp="0.00" CostBase="0.00" CostCode="" CostKind="7" CostRate="0.12" Name="利润" OrdCode="6" Remark=""/>
+							<RateGrossItem AddUp="0.00" CostBase="0" CostCode="" CostKind="0" CostRate="0." Name="风险费" OrdCode="7" Remark=""/>
+							<RateGrossItem AddUp="50000.00" CostBase="50000.00" CostCode="" CostKind="8" CostRate="1" Name="综合单价" OrdCode="8" Remark=""/>
+						</RateGross>
+						<ResUsageTable>
+							<ResUsageItem ResourceID="29" Usage="1.000000"/>
+						</ResUsageTable>
+					</BQItem>
+					<BQItem Addup="40000.000000" AttrAndWork="1、报价含:含因改造幕墙、窗户需要的拆除、无需改造处的破坏修复、新立面与原立面无需改造衔接处收口及垃圾外运费用 2、含设计范围内幕墙（含骨架）、窗户及格栅等的拆改及垃圾外运 3、含设计范围内需改造处的保温层及粉刷层破坏后的修复费用及垃圾外运 4、含玻璃幕墙、铝合金窗外侧收口用原面砖破坏后的收口修补及部分办公室的窗户内侧有木质窗套修补费用 5、施工单位勘察现场后自行报价，费用一次性包死，中标后不得调整 6、其他:详见图纸、图集、答疑、招标文件、政府相关文件、规范等其它资料，满足验收要求 " Code="补020604001001" LaborRate="0.00" MachineRate="0.00" MainBQItem="false" MaterialRate="40000.00" Name="拆除、垃圾外运及与原立面无需改造衔接处收口费用" OverheadRate="0.00" ProfitRate="0.00" Quantity="1.000000" Rate="40000.000000" Remark="" RiskRate="0.00" TradeSummary="0" Unit="项">
+						<NormTable>
+							<NormItem Code="D00002" LaborRate="0.00" MachineRate="0.00" MaterialRate="40000.00" Name="垃圾清运" NormDBID="0" NormDBName="补充定额" OverheadRate="0.00" ProfitRate="0.00" Quantity="1.000000" Rate="40000.00" Remark="" RiskRate="0.00" StandardCode="" Total="40000.00" Unit="项">
+								<ResUsageTable>
+									<ResUsageItem ResourceID="31" Usage="1.000000"/>
+								</ResUsageTable>
+							</NormItem>
+						</NormTable>
+						<RateGross>
+							<RateGrossItem AddUp="40000.00" CostBase="40000.00" CostCode="" CostKind="0" CostRate="1" Name="直接费" OrdCode="1" Remark=""/>
+							<RateGrossItem AddUp="0.00" CostBase="0.00" CostCode="" CostKind="1" CostRate="1" Name="人工费" OrdCode="2" Remark=""/>
+							<RateGrossItem AddUp="40000.00" CostBase="40000.00" CostCode="" CostKind="2" CostRate="1" Name="材料费" OrdCode="3" Remark=""/>
+							<RateGrossItem AddUp="0.00" CostBase="0.00" CostCode="" CostKind="3" CostRate="1" Name="机械费" OrdCode="4" Remark=""/>
+							<RateGrossItem AddUp="0.00" CostBase="0.00" CostCode="" CostKind="6" CostRate="0.18" Name="管理费" OrdCode="5" Remark=""/>
+							<RateGrossItem AddUp="0.00" CostBase="0.00" CostCode="" CostKind="7" CostRate="0.12" Name="利润" OrdCode="6" Remark=""/>
+							<RateGrossItem AddUp="0.00" CostBase="0" CostCode="" CostKind="0" CostRate="0." Name="风险费" OrdCode="7" Remark=""/>
+							<RateGrossItem AddUp="40000.00" CostBase="40000.00" CostCode="" CostKind="8" CostRate="1" Name="综合单价" OrdCode="8" Remark=""/>
+						</RateGross>
+						<ResUsageTable>
+							<ResUsageItem ResourceID="31" Usage="1.000000"/>
+						</ResUsageTable>
+					</BQItem>
+				</BQTitle>
+			</BQTable>
+			<MeasureTable>
+				<MeasureTitle Amount="193104.03" Name="措施项目清单" OrdCode="" ProvisionalAmount="0" Remark="" UnPriceResAmount="0">
+					<MeasureItem1 BaseAmount="190906.33" CostBase="190906.33" CostKind="1" CostRate="0.00290000" InCompeteFlag="true" Name="环境保护费" OrdCode="1" Remark="" Total="553.63"/>
+					<MeasureItem1 BaseAmount="190906.33" CostBase="190906.33" CostKind="2" CostRate="0.04170000" InCompeteFlag="true" Name="文明施工费" OrdCode="2" Remark="" Total="7960.79"/>
+					<MeasureItem1 BaseAmount="190906.33" CostBase="190906.33" CostKind="3" CostRate="0.02460000" InCompeteFlag="true" Name="安全施工费" OrdCode="3" Remark="" Total="4696.30"/>
+					<MeasureItem1 BaseAmount="190906.33" CostBase="190906.33" CostKind="4" CostRate="0.03770000" InCompeteFlag="true" Name="临时设施费" OrdCode="4" Remark="" Total="7197.17"/>
+					<MeasureItem1 BaseAmount="190906.33" CostBase="190906.33" CostKind="0" CostRate="0.00000000" InCompeteFlag="false" Name="夜间施工增加费" OrdCode="5" Remark="" Total="0.00"/>
+					<MeasureItem1 BaseAmount="190906.33" CostBase="190906.33" CostKind="0" CostRate="0.00000000" InCompeteFlag="false" Name="缩短工期措施费(工期缩短10%以内)" OrdCode="6" Remark="" Total="0.00"/>
+					<MeasureItem1 BaseAmount="190906.33" CostBase="190906.33" CostKind="0" CostRate="0.00000000" InCompeteFlag="false" Name="缩短工期措施费(工期缩短20%以内)" OrdCode="7" Remark="" Total="0.00"/>
+					<MeasureItem1 BaseAmount="190906.33" CostBase="190906.33" CostKind="0" CostRate="0.00000000" InCompeteFlag="false" Name="缩短工期措施费(工期缩短30%以内)" OrdCode="8" Remark="" Total="0.00"/>
+					<MeasureItem1 BaseAmount="190906.33" CostBase="190906.33" CostKind="0" CostRate="0.01900000" InCompeteFlag="false" Name="二次搬运费" OrdCode="9" Remark="" Total="3627.22"/>
+					<MeasureItem1 BaseAmount="190906.33" CostBase="190906.33" CostKind="0" CostRate="0.00300000" InCompeteFlag="false" Name="已完工程及设备保护" OrdCode="10" Remark="" Total="572.72"/>
+					<MeasureItem1 BaseAmount="190906.33" CostBase="190906.33" CostKind="0" CostRate="0.01300000" InCompeteFlag="false" Name="冬雨季施工增加费" OrdCode="11" Remark="" Total="2481.78"/>
+					<MeasureItem1 BaseAmount="190906.33" CostBase="190906.33" CostKind="0" CostRate="0.01900000" InCompeteFlag="false" Name="生产工具用具使用费" OrdCode="12" Remark="" Total="3627.22"/>
+					<MeasureItem1 BaseAmount="190906.33" CostBase="190906.33" CostKind="0" CostRate="0.01600000" InCompeteFlag="false" Name="工程定位复测、工程点交、场地清理" OrdCode="13" Remark="" Total="3054.50"/>
+					<MeasureItem1 BaseAmount="190906.33" CostBase="190906.33" CostKind="5" CostRate="0.00960000" InCompeteFlag="true" Name="扬尘防治增加费" OrdCode="14" Remark="" Total="1832.70"/>
+					<MeasureItem2 LaborRate="0.00" MachineRate="0.00" MaterialRate="0.00" Name="混凝土、钢筋混凝土模板及支架" OrdCode="15" OverheadRate="0.00" ProfitRate="0.00" ProvisionalAmount="0" Quantity="1.000000" Rate="0.00" Remark="" RiskRate="0.00" Total="0.00" Unit="项">
+						<NormTable/>
+						<RateGross>
+							<RateGrossItem AddUp="0" CostBase="0.00" CostCode="" CostKind="0" CostRate="1" Name="直接费" OrdCode="1" Remark=""/>
+							<RateGrossItem AddUp="0" CostBase="0.00" CostCode="" CostKind="1" CostRate="1" Name="人工费" OrdCode="2" Remark=""/>
+							<RateGrossItem AddUp="0" CostBase="0.00" CostCode="" CostKind="2" CostRate="1" Name="材料费" OrdCode="3" Remark=""/>
+							<RateGrossItem AddUp="0" CostBase="0.00" CostCode="" CostKind="3" CostRate="1" Name="机械费" OrdCode="4" Remark=""/>
+							<RateGrossItem AddUp="0" CostBase="0.00" CostCode="" CostKind="6" CostRate="0.18" Name="管理费" OrdCode="5" Remark=""/>
+							<RateGrossItem AddUp="0" CostBase="0.00" CostCode="" CostKind="7" CostRate="0.12" Name="利润" OrdCode="6" Remark=""/>
+							<RateGrossItem AddUp="0" CostBase="0" CostCode="" CostKind="0" CostRate="0." Name="风险费" OrdCode="7" Remark=""/>
+							<RateGrossItem AddUp="0" CostBase="0.00" CostCode="" CostKind="8" CostRate="1" Name="综合单价" OrdCode="8" Remark=""/>
+						</RateGross>
+						<ResUsageTable/>
+					</MeasureItem2>
+					<MeasureItem2 LaborRate="0.00" MachineRate="0.00" MaterialRate="157500.00" Name="脚手架" OrdCode="16" OverheadRate="0.00" ProfitRate="0.00" ProvisionalAmount="0" Quantity="1.000000" Rate="157500.00" Remark="" RiskRate="0.00" Total="157500.00" Unit="项">
+						<NormTable>
+							<NormItem Code="D00001" LaborRate="0.00" MachineRate="0.00" MaterialRate="45.00" Name="外脚手架、二层安全防护" NormDBID="0" NormDBName="补充定额" OverheadRate="0.00" ProfitRate="0.00" Quantity="3500.000000" Rate="45.00" Remark="" RiskRate="0.00" StandardCode="" Total="157500.00" Unit="m2">
+								<ResUsageTable>
+									<ResUsageItem ResourceID="30" Usage="3500.000000"/>
+								</ResUsageTable>
+							</NormItem>
+						</NormTable>
+						<RateGross>
+							<RateGrossItem AddUp="157500.00" CostBase="157500.00" CostCode="" CostKind="0" CostRate="1" Name="直接费" OrdCode="1" Remark=""/>
+							<RateGrossItem AddUp="0.00" CostBase="0.00" CostCode="" CostKind="1" CostRate="1" Name="人工费" OrdCode="2" Remark=""/>
+							<RateGrossItem AddUp="157500.00" CostBase="157500.00" CostCode="" CostKind="2" CostRate="1" Name="材料费" OrdCode="3" Remark=""/>
+							<RateGrossItem AddUp="0.00" CostBase="0.00" CostCode="" CostKind="3" CostRate="1" Name="机械费" OrdCode="4" Remark=""/>
+							<RateGrossItem AddUp="0.00" CostBase="0.00" CostCode="" CostKind="6" CostRate="0.18" Name="管理费" OrdCode="5" Remark=""/>
+							<RateGrossItem AddUp="0.00" CostBase="0.00" CostCode="" CostKind="7" CostRate="0.12" Name="利润" OrdCode="6" Remark=""/>
+							<RateGrossItem AddUp="0.00" CostBase="0" CostCode="" CostKind="0" CostRate="0." Name="风险费" OrdCode="7" Remark=""/>
+							<RateGrossItem AddUp="157500.00" CostBase="157500.00" CostCode="" CostKind="8" CostRate="1" Name="综合单价" OrdCode="8" Remark=""/>
+						</RateGross>
+						<ResUsageTable>
+							<ResUsageItem ResourceID="30" Usage="3500.000000"/>
+						</ResUsageTable>
+					</MeasureItem2>
+					<MeasureItem2 LaborRate="0.00" MachineRate="0.00" MaterialRate="0.00" Name="垂直运输及超高降效" OrdCode="17" OverheadRate="0.00" ProfitRate="0.00" ProvisionalAmount="0" Quantity="1.000000" Rate="0.00" Remark="" RiskRate="0.00" Total="0.00" Unit="项">
+						<NormTable/>
+						<RateGross>
+							<RateGrossItem AddUp="0" CostBase="0.00" CostCode="" CostKind="0" CostRate="1" Name="直接费" OrdCode="1" Remark=""/>
+							<RateGrossItem AddUp="0" CostBase="0.00" CostCode="" CostKind="1" CostRate="1" Name="人工费" OrdCode="2" Remark=""/>
+							<RateGrossItem AddUp="0" CostBase="0.00" CostCode="" CostKind="2" CostRate="1" Name="材料费" OrdCode="3" Remark=""/>
+							<RateGrossItem AddUp="0" CostBase="0.00" CostCode="" CostKind="3" CostRate="1" Name="机械费" OrdCode="4" Remark=""/>
+							<RateGrossItem AddUp="0" CostBase="0.00" CostCode="" CostKind="6" CostRate="0.18" Name="管理费" OrdCode="5" Remark=""/>
+							<RateGrossItem AddUp="0" CostBase="0.00" CostCode="" CostKind="7" CostRate="0.12" Name="利润" OrdCode="6" Remark=""/>
+							<RateGrossItem AddUp="0" CostBase="0" CostCode="" CostKind="0" CostRate="0." Name="风险费" OrdCode="7" Remark=""/>
+							<RateGrossItem AddUp="0" CostBase="0.00" CostCode="" CostKind="8" CostRate="1" Name="综合单价" OrdCode="8" Remark=""/>
+						</RateGross>
+						<ResUsageTable/>
+					</MeasureItem2>
+					<MeasureItem2 LaborRate="0.00" MachineRate="0.00" MaterialRate="0.00" Name="施工排水、降水" OrdCode="18" OverheadRate="0.00" ProfitRate="0.00" ProvisionalAmount="0" Quantity="1.000000" Rate="0.00" Remark="" RiskRate="0.00" Total="0.00" Unit="项">
+						<NormTable/>
+						<RateGross>
+							<RateGrossItem AddUp="0" CostBase="0.00" CostCode="" CostKind="0" CostRate="1" Name="直接费" OrdCode="1" Remark=""/>
+							<RateGrossItem AddUp="0" CostBase="0.00" CostCode="" CostKind="1" CostRate="1" Name="人工费" OrdCode="2" Remark=""/>
+							<RateGrossItem AddUp="0" CostBase="0.00" CostCode="" CostKind="2" CostRate="1" Name="材料费" OrdCode="3" Remark=""/>
+							<RateGrossItem AddUp="0" CostBase="0.00" CostCode="" CostKind="3" CostRate="1" Name="机械费" OrdCode="4" Remark=""/>
+							<RateGrossItem AddUp="0" CostBase="0.00" CostCode="" CostKind="6" CostRate="0.18" Name="管理费" OrdCode="5" Remark=""/>
+							<RateGrossItem AddUp="0" CostBase="0.00" CostCode="" CostKind="7" CostRate="0.12" Name="利润" OrdCode="6" Remark=""/>
+							<RateGrossItem AddUp="0" CostBase="0" CostCode="" CostKind="0" CostRate="0." Name="风险费" OrdCode="7" Remark=""/>
+							<RateGrossItem AddUp="0" CostBase="0.00" CostCode="" CostKind="8" CostRate="1" Name="综合单价" OrdCode="8" Remark=""/>
+						</RateGross>
+						<ResUsageTable/>
+					</MeasureItem2>
+					<MeasureItem2 LaborRate="0.00" MachineRate="0.00" MaterialRate="0.00" Name="二次搬运费" OrdCode="19" OverheadRate="0.00" ProfitRate="0.00" ProvisionalAmount="0" Quantity="1.000000" Rate="0.00" Remark="" RiskRate="0.00" Total="0.00" Unit="项">
+						<NormTable/>
+						<RateGross>
+							<RateGrossItem AddUp="0" CostBase="0.00" CostCode="" CostKind="0" CostRate="1" Name="直接费" OrdCode="1" Remark=""/>
+							<RateGrossItem AddUp="0" CostBase="0.00" CostCode="" CostKind="1" CostRate="1" Name="人工费" OrdCode="2" Remark=""/>
+							<RateGrossItem AddUp="0" CostBase="0.00" CostCode="" CostKind="2" CostRate="1" Name="材料费" OrdCode="3" Remark=""/>
+							<RateGrossItem AddUp="0" CostBase="0.00" CostCode="" CostKind="3" CostRate="1" Name="机械费" OrdCode="4" Remark=""/>
+							<RateGrossItem AddUp="0" CostBase="0.00" CostCode="" CostKind="6" CostRate="0.18" Name="管理费" OrdCode="5" Remark=""/>
+							<RateGrossItem AddUp="0" CostBase="0.00" CostCode="" CostKind="7" CostRate="0.12" Name="利润" OrdCode="6" Remark=""/>
+							<RateGrossItem AddUp="0" CostBase="0" CostCode="" CostKind="0" CostRate="0." Name="风险费" OrdCode="7" Remark=""/>
+							<RateGrossItem AddUp="0" CostBase="0.00" CostCode="" CostKind="8" CostRate="1" Name="综合单价" OrdCode="8" Remark=""/>
+						</RateGross>
+						<ResUsageTable/>
+					</MeasureItem2>
+					<MeasureItem2 LaborRate="0.00" MachineRate="0.00" MaterialRate="0.00" Name="大型机械设备进出场及安拆" OrdCode="20" OverheadRate="0.00" ProfitRate="0.00" ProvisionalAmount="0" Quantity="1.000000" Rate="0.00" Remark="" RiskRate="0.00" Total="0.00" Unit="项">
+						<NormTable/>
+						<RateGross>
+							<RateGrossItem AddUp="0" CostBase="0.00" CostCode="" CostKind="0" CostRate="1" Name="直接费" OrdCode="1" Remark=""/>
+							<RateGrossItem AddUp="0" CostBase="0.00" CostCode="" CostKind="1" CostRate="1" Name="人工费" OrdCode="2" Remark=""/>
+							<RateGrossItem AddUp="0" CostBase="0.00" CostCode="" CostKind="2" CostRate="1" Name="材料费" OrdCode="3" Remark=""/>
+							<RateGrossItem AddUp="0" CostBase="0.00" CostCode="" CostKind="3" CostRate="1" Name="机械费" OrdCode="4" Remark=""/>
+							<RateGrossItem AddUp="0" CostBase="0.00" CostCode="" CostKind="6" CostRate="0.18" Name="管理费" OrdCode="5" Remark=""/>
+							<RateGrossItem AddUp="0" CostBase="0.00" CostCode="" CostKind="7" CostRate="0.12" Name="利润" OrdCode="6" Remark=""/>
+							<RateGrossItem AddUp="0" CostBase="0" CostCode="" CostKind="0" CostRate="0." Name="风险费" OrdCode="7" Remark=""/>
+							<RateGrossItem AddUp="0" CostBase="0.00" CostCode="" CostKind="8" CostRate="1" Name="综合单价" OrdCode="8" Remark=""/>
+						</RateGross>
+						<ResUsageTable/>
+					</MeasureItem2>
+				</MeasureTitle>
+			</MeasureTable>
+			<OtherTable>
+				<OtherTitle CostKind="0" Name="招标人部分" OrdCode="一" Remark="">
+					<OtherItem CostBase="0.00" CostKind="2" CostRate="0.00" Name="预留金" OrdCode="1" Remark="" Total="0.00"/>
+					<OtherItem CostBase="0.00" CostKind="3" CostRate="0.00" Name="材料购置费" OrdCode="2" Remark="" Total="0.00"/>
+				</OtherTitle>
+				<OtherTitle CostKind="1" Name="投标人部分" OrdCode="二" Remark="">
+					<OtherItem CostBase="0.00" CostKind="1" CostRate="0.00" Name="总承包服务费" OrdCode="1" Remark="" Total="0.00"/>
+					<OtherItem CostBase="0.00" CostKind="4" CostRate="0.00" Name="零星工作项目费" OrdCode="2" Remark="" Total="0.00"/>
+				</OtherTitle>
+			</OtherTable>
+			<DayWorkTable>
+				<DayWorkTitle Name="人工" OrdCode="一" Remark=""/>
+				<DayWorkTitle Name="材料" OrdCode="二" Remark=""/>
+				<DayWorkTitle Name="机械" OrdCode="三" Remark=""/>
+			</DayWorkTable>
+			<ExamMaterial/>
+			<Resource>
+				<ResourceItem Addup="165237.24" BudgetRate="31.00" Code="000010" CostKind="1" MainMaterialFlag="false" MarketRate="31.00" Name="综合工日" ProducingArea="" Provider="0" Quantity="5330.23351" Remark="" ResourceID="1" Specification="" Supplier="" UnPriceableRes="false" Unit="工日"/>
+				<ResourceItem Addup="5893.13" BudgetRate="11.54" Code="100099-3" CostKind="2" MainMaterialFlag="true" MarketRate="11.54" Name="玻璃胶350g" ProducingArea="" Provider="0" Quantity="510.67013" Remark="" ResourceID="2" Specification="" Supplier="" UnPriceableRes="false" Unit="支"/>
+				<ResourceItem Addup="40978.00" BudgetRate="50.00" Code="100099-2" CostKind="2" MainMaterialFlag="true" MarketRate="50.00" Name="铝型材加工" ProducingArea="" Provider="0" Quantity="819.56000" Remark="" ResourceID="3" Specification="" Supplier="" UnPriceableRes="false" Unit="M2"/>
+				<ResourceItem Addup="36140.84" BudgetRate="30.00" Code="100099-1" CostKind="2" MainMaterialFlag="true" MarketRate="30.00" Name="五金配件" ProducingArea="" Provider="0" Quantity="1204.69480" Remark="" ResourceID="4" Specification="" Supplier="" UnPriceableRes="false" Unit="M2"/>
+				<ResourceItem Addup="39815.46" BudgetRate="13.76" Code="100118" CostKind="2" MainMaterialFlag="true" MarketRate="13.76" Name="不锈钢带帽螺栓M12×450" ProducingArea="" Provider="0" Quantity="2893.57123" Remark="" ResourceID="5" Specification="" Supplier="" UnPriceableRes="false" Unit="套"/>
+				<ResourceItem Addup="11632.22" BudgetRate="4.02" Code="100167" CostKind="2" MainMaterialFlag="true" MarketRate="4.02" Name="不锈钢螺栓M12×110" ProducingArea="" Provider="0" Quantity="2893.57123" Remark="" ResourceID="6" Specification="" Supplier="" UnPriceableRes="false" Unit="套"/>
+				<ResourceItem Addup="6157.44" BudgetRate="0.92" Code="100290" CostKind="2" MainMaterialFlag="true" MarketRate="0.92" Name="地脚" ProducingArea="" Provider="0" Quantity="6692.80243" Remark="" ResourceID="7" Specification="" Supplier="" UnPriceableRes="false" Unit="个"/>
+				<ResourceItem Addup="23472.34" BudgetRate="5.31" Code="100328" CostKind="2" MainMaterialFlag="true" MarketRate="5.31" Name="镀锌铁件" ProducingArea="" Provider="0" Quantity="4420.40209" Remark="" ResourceID="8" Specification="" Supplier="" UnPriceableRes="false" Unit="kg"/>
+				<ResourceItem Addup="64448.71" BudgetRate="123.30" Code="100332" CostKind="2" MainMaterialFlag="true" MarketRate="123.30" Name="镀锌铁皮1.2mm厚" ProducingArea="" Provider="0" Quantity="522.69840" Remark="" ResourceID="9" Specification="" Supplier="" UnPriceableRes="false" Unit="m2"/>
+				<ResourceItem Addup="1043.39" BudgetRate="12.48" Code="100461" CostKind="2" MainMaterialFlag="true" MarketRate="12.48" Name="合金钢钻头Φ10" ProducingArea="" Provider="0" Quantity="83.60582" Remark="" ResourceID="10" Specification="" Supplier="" UnPriceableRes="false" Unit="个"/>
+				<ResourceItem Addup="41446.33" BudgetRate="92.31" Code="100529" CostKind="2" MainMaterialFlag="true" MarketRate="92.31" Name="结构胶DC995" ProducingArea="" Provider="0" Quantity="448.99048" Remark="" ResourceID="11" Specification="" Supplier="" UnPriceableRes="false" Unit="l"/>
+				<ResourceItem Addup="65817.03" BudgetRate="230.00" Code="100618" CostKind="2" MainMaterialFlag="true" MarketRate="230.00" Name="铝单板" ProducingArea="" Provider="0" Quantity="286.16100" Remark="" ResourceID="12" Specification="" Supplier="" UnPriceableRes="false" Unit="m2"/>
+				<ResourceItem Addup="282826.20" BudgetRate="25.00" Code="100693" CostKind="2" MainMaterialFlag="true" MarketRate="25.00" Name="铝合金型材" ProducingArea="" Provider="0" Quantity="11313.04793" Remark="" ResourceID="13" Specification="" Supplier="" UnPriceableRes="false" Unit="kg"/>
+				<ResourceItem Addup="30262.03" BudgetRate="17.10" Code="100694-2" CostKind="2" MainMaterialFlag="true" MarketRate="17.10" Name="铝合金型材104系列" ProducingArea="" Provider="0" Quantity="1769.70940" Remark="" ResourceID="14" Specification="" Supplier="" UnPriceableRes="false" Unit="m2"/>
+				<ResourceItem Addup="544518.60" BudgetRate="25.00" Code="100694-1" CostKind="2" MainMaterialFlag="true" MarketRate="25.00" Name="铝合金型材104系列" ProducingArea="" Provider="0" Quantity="21780.74412" Remark="" ResourceID="15" Specification="" Supplier="" UnPriceableRes="false" Unit="m2"/>
+				<ResourceItem Addup="367.67" BudgetRate="0.03" Code="100720" CostKind="2" MainMaterialFlag="true" MarketRate="0.03" Name="螺钉" ProducingArea="" Provider="0" Quantity="12255.11926" Remark="" ResourceID="16" Specification="" Supplier="" UnPriceableRes="false" Unit="个"/>
+				<ResourceItem Addup="1682.84" BudgetRate="0.34" Code="100748" CostKind="2" MainMaterialFlag="true" MarketRate="0.34" Name="密封毛条" ProducingArea="" Provider="0" Quantity="4949.60906" Remark="" ResourceID="17" Specification="" Supplier="" UnPriceableRes="false" Unit="m"/>
+				<ResourceItem Addup="1586.58" BudgetRate="3.33" Code="100749" CostKind="2" MainMaterialFlag="true" MarketRate="3.33" Name="密封油膏" ProducingArea="" Provider="0" Quantity="476.45679" Remark="" ResourceID="18" Specification="" Supplier="" UnPriceableRes="false" Unit="kg"/>
+				<ResourceItem Addup="49714.29" BudgetRate="92.31" Code="100803" CostKind="2" MainMaterialFlag="true" MarketRate="92.31" Name="耐候胶DC79HN" ProducingArea="" Provider="0" Quantity="538.55790" Remark="" ResourceID="19" Specification="" Supplier="" UnPriceableRes="false" Unit="L"/>
+				<ResourceItem Addup="5696.20" BudgetRate="0.84" Code="100816" CostKind="2" MainMaterialFlag="true" MarketRate="0.84" Name="泡沫条" ProducingArea="" Provider="0" Quantity="6781.25869" Remark="" ResourceID="20" Specification="" Supplier="" UnPriceableRes="false" Unit="m"/>
+				<ResourceItem Addup="9236.03" BudgetRate="0.69" Code="100818" CostKind="2" MainMaterialFlag="true" MarketRate="0.69" Name="膨胀螺栓" ProducingArea="" Provider="0" Quantity="13385.48439" Remark="" ResourceID="21" Specification="" Supplier="" UnPriceableRes="false" Unit="套"/>
+				<ResourceItem Addup="201991.18" BudgetRate="180.00" Code="100834" CostKind="2" MainMaterialFlag="true" MarketRate="180.00" Name="平板玻璃5mm" ProducingArea="" Provider="0" Quantity="1122.17321" Remark="" ResourceID="22" Specification="" Supplier="" UnPriceableRes="false" Unit="m2"/>
+				<ResourceItem Addup="192801.18" BudgetRate="180.00" Code="100892-2" CostKind="2" MainMaterialFlag="true" MarketRate="180.00" Name="热反射玻璃(镀膜玻璃)6mm" ProducingArea="" Provider="0" Quantity="1071.11764" Remark="" ResourceID="23" Specification="" Supplier="" UnPriceableRes="false" Unit="m2"/>
+				<ResourceItem Addup="201990.72" BudgetRate="248.00" Code="100892-1" CostKind="2" MainMaterialFlag="true" MarketRate="248.00" Name="热反射玻璃(镀膜玻璃)6mm弧形" ProducingArea="" Provider="0" Quantity="814.47873" Remark="" ResourceID="24" Specification="" Supplier="" UnPriceableRes="false" Unit="m2"/>
+				<ResourceItem Addup="3723.59" BudgetRate="7.06" Code="100902" CostKind="2" MainMaterialFlag="true" MarketRate="7.06" Name="软填料" ProducingArea="" Provider="0" Quantity="527.41538" Remark="" ResourceID="25" Specification="" Supplier="" UnPriceableRes="false" Unit="kg"/>
+				<ResourceItem Addup="26363.25" BudgetRate="3.30" Code="100981" CostKind="2" MainMaterialFlag="true" MarketRate="3.30" Name="双面强力弹性胶带" ProducingArea="" Provider="0" Quantity="7988.83428" Remark="" ResourceID="26" Specification="" Supplier="" UnPriceableRes="false" Unit="m"/>
+				<ResourceItem Addup="3075.86" BudgetRate="15.52" Code="101129" CostKind="2" MainMaterialFlag="true" MarketRate="15.52" Name="岩棉" ProducingArea="" Provider="0" Quantity="198.18981" Remark="" ResourceID="27" Specification="" Supplier="" UnPriceableRes="false" Unit="m2"/>
+				<ResourceItem Addup="980.06" BudgetRate="0.02" Code="101242" CostKind="2" MainMaterialFlag="true" MarketRate="0.02" Name="自攻螺丝" ProducingArea="" Provider="0" Quantity="48998.61918" Remark="" ResourceID="28" Specification="" Supplier="" UnPriceableRes="false" Unit="个"/>
+				<ResourceItem Addup="50000.00" BudgetRate="50000.00" Code="D00001-2" CostKind="2" MainMaterialFlag="true" MarketRate="50000.00" Name="幕墙四性检测费" ProducingArea="" Provider="0" Quantity="1.00000" Remark="" ResourceID="29" Specification="" Supplier="" UnPriceableRes="false" Unit="项"/>
+				<ResourceItem Addup="157500.00" BudgetRate="45.00" Code="D00001-1" CostKind="2" MainMaterialFlag="true" MarketRate="45.00" Name="外脚手架、二层安全防护" ProducingArea="" Provider="0" Quantity="3500.00000" Remark="" ResourceID="30" Specification="" Supplier="" UnPriceableRes="false" Unit="m2"/>
+				<ResourceItem Addup="40000.00" BudgetRate="40000.00" Code="D00002" CostKind="2" MainMaterialFlag="true" MarketRate="40000.00" Name="垃圾清运" ProducingArea="" Provider="0" Quantity="1.00000" Remark="" ResourceID="31" Specification="" Supplier="" UnPriceableRes="false" Unit="项"/>
+				<ResourceItem Addup="2847.21" BudgetRate="1.00" Code="100844" CostKind="2" MainMaterialFlag="false" MarketRate="1.00" Name="其他材料费占材料费" ProducingArea="" Provider="0" Quantity="2847.21375" Remark="" ResourceID="32" Specification="" Supplier="" UnPriceableRes="false" Unit="元"/>
+				<ResourceItem Addup="19778.91" BudgetRate="113.52" Code="J09002" CostKind="3" MainMaterialFlag="false" MarketRate="113.52" Name="交流弧焊机32kVA" ProducingArea="" Provider="0" Quantity="174.23280" Remark="" ResourceID="33" Specification="" Supplier="" UnPriceableRes="false" Unit="台班"/>
+				<ResourceItem Addup="589.10" BudgetRate="30.00" Code="J12001" CostKind="3" MainMaterialFlag="false" MarketRate="30.00" Name="制作安装综合机械" ProducingArea="" Provider="0" Quantity="19.63653" Remark="" ResourceID="34" Specification="" Supplier="" UnPriceableRes="false" Unit="台班"/>
+				<ResourceItem Addup="1447.60" BudgetRate="6.54" Code="J13109" CostKind="3" MainMaterialFlag="false" MarketRate="6.54" Name="电锤520W" ProducingArea="" Provider="0" Quantity="221.34428" Remark="" ResourceID="35" Specification="" Supplier="" UnPriceableRes="false" Unit="台班"/>
+				<ResourceItem Addup="2437.52" BudgetRate="41.45" Code="J20051" CostKind="3" MainMaterialFlag="false" MarketRate="41.45" Name="双头切割机" ProducingArea="" Provider="0" Quantity="58.80357" Remark="" ResourceID="36" Specification="" Supplier="" UnPriceableRes="false" Unit="台班"/>
+				<ResourceItem Addup="1386.02" BudgetRate="76.09" Code="J22067" CostKind="3" MainMaterialFlag="false" MarketRate="76.09" Name="双组分注胶机" ProducingArea="" Provider="0" Quantity="18.21466" Remark="" ResourceID="37" Specification="" Supplier="" UnPriceableRes="false" Unit="台班"/>
+				<ResourceItem Addup="29.94" BudgetRate="1.00" Code="J00000" CostKind="3" MainMaterialFlag="false" MarketRate="1.00" Name="其他机械费占机械费" ProducingArea="" Provider="0" Quantity="29.94463" Remark="" ResourceID="38" Specification="" Supplier="" UnPriceableRes="false" Unit="元"/>
+				<ResourceItem Addup="9020.03" BudgetRate="31.00" Code="J23000" CostKind="3" MainMaterialFlag="false" MarketRate="31.00" Name="人工(机械用)" ProducingArea="" Provider="0" Quantity="290.96878" Remark="" ResourceID="39" Specification="" Supplier="" UnPriceableRes="false" Unit="工日"/>
+				<ResourceItem Addup="8735.57" BudgetRate="0.51" Code="J23007" CostKind="3" MainMaterialFlag="false" MarketRate="0.51" Name="电(机械用)" ProducingArea="" Provider="0" Quantity="17128.57417" Remark="" ResourceID="40" Specification="" Supplier="" UnPriceableRes="false" Unit="kWh"/>
+			</Resource>
+		</JobList>
+	</Building>
+</ConstructProject>

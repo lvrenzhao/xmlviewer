@@ -1,0 +1,45 @@
+.verticaltab_box{
+	position: relative;
+	
+}
+.verticaltab_box .vtab_menu {
+    width: 220px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: #e1e1e1;
+    height: 100%;
+}
+.verticaltab_box .vtab_menu li a{
+	line-height: 20px;
+	padding: 13px 10px;
+	display: block;
+	margin: 0;
+	font-weight: 700;
+	border: none;
+	color: #666;
+	background: #e1e1e1;
+	border-bottom: 1px solid #f1f1f1;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.verticaltab_box .vtab_menu li a:hover{
+	background: #f1f1f1;
+}
+.verticaltab_box .vtab_menu li.active a{
+	background: #fff;
+	color: #1ab394;
+}
+.verticaltab_box .vtab_content{
+	margin-left: 220px;
+    position: relative;
+    height: 100%;
+}
+.verticaltab_box .vtab_content .vtab_box{
+	height: 100%;
+	display: none;
+}
+.verticaltab_box .vtab_content .vtab_box.active{
+	display: block;
+}

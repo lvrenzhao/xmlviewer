@@ -1,0 +1,170 @@
+/**表单样式*/
+.form_center{ 
+	margin: 0 auto;
+}
+.form_item{ 
+	padding: 0 15px; 
+	margin-bottom: 5px;
+}
+.form_item>label{ 
+	line-height: 30px;
+	margin-bottom: 0;
+}
+.form_item .checkbox, .form_item .radio{
+	margin: 0;
+}
+.form_item .i-checkslayout{ 
+	padding-top: 0px;
+	height: 30px;
+}
+.form_item .i-checkslayout .radio,
+.form_item .i-checkslayout .checkbox{
+	padding-top: 6px;
+}
+.form_item .checkbox label,
+.form_item .radio label{ 
+	padding-left: 0;
+	padding-right: 15px;
+}
+
+.form_item .chosen-container-multi .chosen-choices{
+	padding: 0!important;
+}
+.form_area{ 
+	position: relative;
+}
+.form_area label{ 
+	line-height: 30px;
+	text-align: center;
+	margin: 0;
+}
+.form_item label span{
+	color: #f00;
+	margin-left: 5px;
+	font-weight: bold;
+}
+
+.form_line .form_item{
+	position: relative;
+	padding: 0;
+}
+.form_line .form_item>label{
+	width: 90px;
+	line-height: 30px;
+    text-align: right;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.form_line .form_item .right{
+	margin-left: 95px;
+    position: relative;
+    line-height: 30px;
+}
+.form_line .form_item .right .progress{
+	margin-bottom: 0;
+}
+.file-preview {
+	border: none;
+	padding: 0;
+}
+
+.file-drop-zone {
+	margin: 0;
+	padding: 0;
+}
+
+.file-drop-zone-title {
+	padding: 30px 10px;
+}
+.form_item .file-caption.kv-fileinput-caption{
+	height: 30px;
+}
+.form_item .btn-file,.form_item .fileinput-upload.fileinput-upload-button,.form_item .fileinput-remove.fileinput-remove-button{
+	height: 30px;
+	line-height: 15px;
+	font-size: 12px;
+}
+.ellipsis{
+	height: 30px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.scroll_y{
+	overflow-y: scroll;
+}
+
+.chosen-container-multi .chosen-choices{
+	height: 30px!important;
+	overflow-y: scroll;
+}
+.menuContent {
+    display: none;
+    position: absolute;
+    top: 30px;
+    left: 0;
+    background: #fff;
+    border: 1px solid #ccc;
+    border-top: none;
+    width: 100%;
+}
+.i-checkslayout label:first-child{ 
+	padding-left: 0;
+}
+
+/*range进度滑动条*/
+input[type="range"] {
+    /*-webkit-box-shadow: 0 1px 0 0px #1ab394, 0 1px 0 #1ab394 inset, 0px 2px 10px 0px #1ab394 inset, 1px 0px 2px #1ab394 inset, 0 0px 1px #1ab394 inset;*/
+    background-color: #ccc;
+    border-radius: 15px;
+    width: 100%;
+    -webkit-appearance: none;
+    height:5px;
+}
+input[type=range]:focus {   
+  outline: none; /* 去掉默认蓝色边框 */  
+}   
+input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    top: 5px;
+    height: 20px;
+    width: 10px;
+    transform: translateY(-1px);
+    background: none repeat scroll 0 0 #1ab394;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.chosen_box{ 
+	position: relative;
+}
+.chosen_box input{
+	 border-right: none;
+}
+.chosen_box .slideul_btn{
+	cursor: pointer;
+}
+.chosen_box ul{ 
+	position: absolute; 
+	top: 100%; 
+	left: 0; 
+	padding:5px 10px; 
+	background: #fff; 
+	border: 1px solid #ccc; 
+	border-top: none;
+	width: 100%;
+	box-sizing: border-box;
+	display: none;
+	z-index: 10;
+	max-height: 162px;
+	overflow-y: auto;
+}
+.chosen_box ul li{
+	line-height: 15px;
+	padding: 5px 0;
+	cursor: pointer;
+}
+.chosen_box ul li:hover{
+	color: #18a689;
+}

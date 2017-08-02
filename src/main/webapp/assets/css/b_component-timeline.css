@@ -1,0 +1,124 @@
+.gray_bg {
+    background-color: #f3f3f4;
+}
+.project_timeline,.result_timeline{ position: relative;}
+.project_timeline::before,.result_timeline::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 13px;
+    height: 100%;
+    width: 4px;
+    background: #e7eaec;
+}
+.timeline_item{
+	position: relative;
+	margin: 1em 0;
+}
+.timeline_item:first-child{
+	margin-top: 0;
+}
+.timeline_item:last-child{
+	margin-bottom: 0;
+}
+.timeline_icon{
+	position: absolute;
+    top: 0;
+    left: 0;
+    width: 30px;
+    height: 30px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    font-size: 12px;
+    line-height: 30px;
+    text-align: center;
+    background: #1ab394;
+    color: #fff;
+}
+.result_timeline .timeline_icon{ 
+	background: #f8ac59; 
+	color: #fff;
+}
+.timeline_content{
+	position: relative;
+    margin-left: 50px;
+    background: white;
+    -webkit-border-radius: 0.5em;
+    -moz-border-radius: 0.5em;
+    border-radius: 0.5em;
+    padding: 0.5em 1em;
+}
+.timeline_item:after,.timeline_content:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.timeline_content h3{ 
+	margin: 0;
+	line-height: 30px;
+	font-size: 14px;
+	height: 30px;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;	
+}
+.timeline_content .timeline_msg{
+	line-height: 25px;
+}
+.timeline_content .timeline_msg a{
+	padding: 0 5px;
+}
+.timeline_content::before {
+    content: '';
+    position: absolute;
+    top: 5px;
+    right: 100%;
+    height: 0;
+    width: 0;
+    border: 7px solid transparent;
+    border-right: 7px solid white;
+}
+.leftright_timeline::before{
+	left: 50%;
+}
+.leftright_timeline .timeline_content{
+	margin-left: 0; 
+	width: 45%;
+}
+.leftright_timeline .timeline_item:nth-child(even) .timeline_content {
+    float: right;
+}
+.leftright_timeline .timeline_icon{
+	left: 50%;
+	margin-left: -15px;
+}
+.leftright_timeline .timeline_content::before{
+	left: 100%;
+    border-color: transparent;
+    border-left-color: white;
+} 
+.leftright_timeline .timeline_item:nth-child(even) .timeline_content::before{
+	left: auto;
+    right: 100%;
+    border-color: transparent;
+    border-right-color: white;
+}
+.iconcolor1{
+	background: #1ab394;
+	color: #fff;
+}
+.iconcolor2{
+	background: #1c84c6;
+	color: #fff;
+}
+.iconcolor3{
+	background: #23c6c8;
+	color: #fff;
+}
+.iconcolor4{
+	background: #f8ac59;
+	color: #fff;
+}
+
+/*成果审核*/

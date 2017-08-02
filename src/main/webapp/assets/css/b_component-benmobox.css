@@ -1,0 +1,123 @@
+/**本末盒子组件样式*/
+.bmbox_layout{
+    padding: 0px;
+    border-right: 1px solid #e0e0e0;
+    border-left: 1px solid #e0e0e0;
+    border-bottom: 1px solid #e0e0e0;
+    height: 100%;
+}
+.title_fixed{
+	position: relative;
+}
+.bmbox_layout .bmbox_title{
+	-moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background-color: #ffffff;
+    border-color: #0088CC;
+    -webkit-border-image: none;
+    -o-border-image: none;
+    border-image: none;
+    border-style: solid solid none;
+    border-width: 2px 0px 0;
+    color: inherit;
+    margin-bottom: 0;
+    padding: 0px 15px;
+    min-height: 38px;
+    line-height: 36px;
+    border-bottom: 1px solid #e0e0e0;
+    overflow: hidden;
+}
+.title_fixed>.bmbox_title{
+	width: 100%;
+	left: 0;
+	top: 0;
+	position: fixed;
+	z-index: 10;
+}
+.title_fixed>.bmbox_content{
+	padding-top: 38px;
+}
+.bmbox_layout .bmbox_title h5 {
+    display: inline-block;
+    font-size: 12px;
+    line-height: 36px;
+    margin: 0;
+    padding: 0;
+    text-overflow: ellipsis;
+    float: left;
+}
+.bmbox_layout .bmbox_title .bmbox_tool {
+    display: inline-block;
+    float: right;
+    margin-top: -2px;
+    position: relative;
+    padding: 0;
+}
+.bmbox_layout .bmbox_title .bmbox_tool a {
+    cursor: pointer;
+    margin-left: 5px;
+    color: #0088CC;
+}
+.bmbox_layout .bmbox_content{
+	background-color: #ffffff;
+    color: inherit;
+    border-color: #e7eaec;
+    -webkit-border-image: none;
+    -o-border-image: none;
+    border-image: none;
+    border-style: solid solid none;
+    border: none;
+}
+
+
+/*home right tab style reset*/
+.bmbox_layout .home-righttab .nav-tabs{
+	border: none;
+	margin-left: -15px;
+	margin-right: 5px;
+}
+.bmbox_layout .home-righttab .nav-tabs > li.active > a,
+.bmbox_layout .home-righttab .nav-tabs > li.active > a:hover,
+.bmbox_layout .home-righttab .nav-tabs > li.active > a:focus{
+	border: none;
+	/*background: #0088CC;
+	color: #fff;*/
+    background: #f5f5f5;
+    color: #337ab7;
+    font-weight: 800;
+}
+.bmbox_layout .home-righttab .nav-tabs > li.active > a span,
+.bmbox_layout .home-righttab .nav-tabs > li.active > a:hover span,
+.bmbox_layout .home-righttab .nav-tabs > li.active > a:focus span{
+	border: none;
+	background: #fff;
+	color: #0088CC;
+}
+.bmbox_layout .home-righttab .nav-tabs > li > a{
+	padding: 0 15px;
+	line-height: 36px;
+	border-radius:0;
+	border: none;
+    color: #999;
+}
+.bmbox_layout .home-righttab .nav-tabs{
+	float: left;
+}
+.bmbox_layout .tabrightmenu{
+	float: right;
+}
+.bmbox_layout .tabrightmenu .bmbox_tool{
+	float: none;
+	display: none;
+}
+.bmbox_layout .tabrightmenu .active{
+	display: block;
+}
+.bmbox_layout .tabrightmenu .active a{
+	color: #0088CC;
+}
+.close_tool{
+	cursor: pointer;
+}

@@ -1,0 +1,100 @@
+/**Global Style Reset*/
+body {
+    font-family: "open sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #676a6c;
+    font-size: 13px;
+    overflow-x: hidden;
+    color: #000;
+}
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6{
+    color: #000;
+}
+body:before {
+	content:"";
+	height:100%;
+	float:left;
+	width:0;
+	margin-top:-32767px;
+}
+html,
+body {
+    height: 100%;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	font-weight: 100;
+}
+h1 {
+	font-size: 30px;
+}
+h2 {
+	font-size: 24px;
+}
+h3 {
+	font-size: 16px;
+}
+h4 {
+	font-size: 14px;
+}
+h5 {
+	font-size: 12px;
+}
+h6 {
+	font-size: 10px;
+}
+h3,h4,h5 {
+	margin-top: 5px;
+	font-weight: 600;
+}
+a {
+	cursor: pointer;
+}
+ul,li{
+	margin: 0;
+	list-style: none;
+	padding: 0;
+}
+a:hover,a:focus { 
+	text-decoration: none;
+}
+a:focus {
+	outline: none;
+}
+video {
+    width: 100% !important;
+}
+textarea{
+	resize: none;
+	width: 100%;
+}
+.clean:after,.clean:before {
+	content: '';
+	display: table;
+}
+
+.clean:after {
+	clear: both;
+}
+
+.clearfix:after {
+	content: " ";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+.progress{
+	margin-bottom: 0;
+}
+.table{
+	margin: 0;
+}
+.pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover {
+    background-color: #18a689;
+    border-color: #18a689;
+}
+
+.pagination>li>a, .pagination>li>span{
+	color: #18a689;
+}
+.checkbox+.checkbox, .radio+.radio{ margin-top: 10px;}
