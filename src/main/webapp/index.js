@@ -42,20 +42,28 @@ $(function(){
         var file = document.getElementById("openfile").files[0];
         if(!file){return;}
         filesize = file.size;
+        var filename = file.name;
+        var index1=filename.lastIndexOf(".");
+        var index2=filename.length;
+        var suffix=filename.substring(index1+1,index2);//后缀名
         var reader = new FileReader();
         //将文件以文本形式读入页面
         reader.readAsText(file);
         reader.onload=function(f){
-            try{
+            // try{
                 xmldata = $.parseXML(this.result);
+                //矫正*zb/tb的xml不规范，将xml按照安徽06备案接口要求规范。
+                if(suffix == "ZHTB" || suffix == "zhtb" || suffix == "ZHZB" || suffix == "zhzb" || suffix == "HZB" || suffix == "hzb" || suffix == "HTB" || suffix == "htb"){
+                    adjustXMLForZBTB();
+                }
                 valiNotPassDatas = [];
                 $("#displayOnce").remove();
                 goLeft();
                 loadtree();//加载树,并启动树各项事件，以及默认触发第一个节点点击事件。
                 $.fn.zTree.init($("#treeTwo"), setting, jsonleveltwotree); //加载第二个树
-            }catch(err){
-                alert("未能正确解析，可能是由于文件非XML格式，或XML内容不正确引起。");
-            }
+            // }catch(err){
+            //     alert("未能正确解析，可能是由于文件非XML格式，或XML内容不正确引起。");
+            // }
         }
     });
     $("#exportPdf").click(function () {
@@ -345,7 +353,7 @@ function getTableHTML(_name) {
                 var jobno = $(this).attr("JobNo");
                 if($(this).attr("Name") == nodename){
                     $(this).find("MeasureItem1").each(function (j) {
-                        bodystr += "<tr id='ROW_"+type.replace("(","").replace(")","")+jobno+(j+1)+"'><td>"+(j+1)+"</td><td>"+$(this).attr("Name")+"</td><td>项</td><td style='text-align: right'>"+$(this).attr("BaseAmount")+"</td><td style='text-align: right'>"+Number($(this).attr("CostRate")).toFixed(4)+"</td><td style='text-align: right'>"+$(this).attr("Total")+"</td></tr>"
+                        bodystr += "<tr id='ROW_"+type.replace("(","").replace(")","")+jobno+(j+1)+"'><td>"+(j+1)+"</td><td>"+$(this).attr("Name")+"</td><td>项</td><td style='text-align: right'>"+$(this).attr("CostBase")+"</td><td style='text-align: right'>"+Number($(this).attr("CostRate")).toFixed(4)+"</td><td style='text-align: right'>"+$(this).attr("Total")+"</td></tr>"
                     });
                     return false;
                 }
@@ -517,4 +525,50 @@ function convertImgToBase64(url, callback, outputFormat){
         canvas = null;
     };
     img.src = url;
+}
+
+
+function adjustXMLForZBTB() {
+    //创建空单项工程节点，以项目名命名
+    var pn = $($(xmldata).find('ConstructProject')[0]).attr("Name");
+    //将单位工程数据挪动到单项工程节点
+    $(xmldata).find("ConstructProject").append("<Building Name='"+pn+"'></Building>");
+    $(xmldata).find("JobList").each(function (i) {
+        var amount=0 ,SafetyAndCivilizationMeasuresAmount =0,LawfeeAmount=0;
+        $(this).find("SummaryItem").each(function (i) {
+            if($(this).attr("Name") == "合计"){
+                amount = $(this).attr("Total");
+            }
+            if($(this).attr("Name") == "规费"){
+                LawfeeAmount = $(this).attr("Total");
+            }
+        });
+        $(this).find("MeasureItem1").each(function (i) {
+            if($(this).attr("Name") == "(通用取费)环境保护费"){
+                SafetyAndCivilizationMeasuresAmount += parseInt($(this).attr("Total"));
+            }
+            if($(this).attr("Name") == "(通用取费)文明施工费"){
+                SafetyAndCivilizationMeasuresAmount += parseInt($(this).attr("Total"));
+            }
+            if($(this).attr("Name") == "(通用取费)安全施工费"){
+                SafetyAndCivilizationMeasuresAmount += parseInt($(this).attr("Total"));
+            }
+            if($(this).attr("Name") == "(通用取费)临时设施费"){
+                SafetyAndCivilizationMeasuresAmount += parseInt($(this).attr("Total"));
+            }
+            if($(this).attr("Name") == "扬尘防治增加费"){
+                SafetyAndCivilizationMeasuresAmount += parseInt($(this).attr("Total"));
+            }
+        });
+        $(this).attr("Amount",amount);
+        $(this).attr("SafetyAndCivilizationMeasuresAmount",SafetyAndCivilizationMeasuresAmount);
+        $(this).attr("LawfeeAmount",LawfeeAmount);
+    });
+    $(xmldata).find("JobList").appendTo($(xmldata).find("Building"));
+    console.log(xmldata)
+    // 1，2，3，4，12
+    // Amount="38263630.37"
+    // LawfeeAmount="530978.61"
+    // SafetyAndCivilizationMeasuresAmount="1333204.48"
+    // TaxAmount="4215196.15"
 }
