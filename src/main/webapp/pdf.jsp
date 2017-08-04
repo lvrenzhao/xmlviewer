@@ -54,6 +54,9 @@
                 }
 
             });
+//            $(".alinks").on("click",function(){
+//                console.log($(this).attr("id"))
+//            });
         });
 
 
@@ -543,6 +546,9 @@
 
 
         var setting = {
+//            view: {
+//                addDiyDom: addDiyDom
+//            },
             check: {
                 enable: true
             },
@@ -552,28 +558,38 @@
                 }
             },
             callback: {
+//                onDblClick: function (event, treeId, treeNode) {
+//                    console.log('double-click');
+//                },
+                onClick: function (event, treeId, treeNode, clickFlag) {
+                    var zTree = $.fn.zTree.getZTreeObj("treeTwo");
+                    zTree.checkNode(treeNode, !treeNode.checked, true,true);
+                },
                 onCheck:function (e, treeId, treeNode) {
                     changeData(treeNode);
                     $.fn.zTree.init($("#treeTwo"), setting, exportconfig);
+                    var zTree = $.fn.zTree.getZTreeObj("treeTwo");
+                    zTree.selectNode(treeNode);
                 }
 
             }
         };
 
+//        function addDiyDom(treeId, treeNode) {
+//            if (treeNode.id == 1 || treeNode.id == 2) return;
+//            var aObj = $("#" + treeNode.tId + "_a");
+//
+//            var editStr = "<a style='color:#369;' class='alinks' id='diyBtn_" + treeNode.id + "'><img alt='点击预览该章节pdf' style='width:14px;height:16px;' src='assets/img/1.png' /></a>";
+//            aObj.append(editStr);
+//            var btn = $("#diyBtn_" + treeNode.id);
+//        }
 
         var selectedJobs=[];
         var selectedBuilds=[];
         var setting2 = {
             check: {enable: true},
             callback: {
-                onClick: function (event, treeId, treeNode, clickFlag) {
-                    console.log('click');
-                },
-                onDoubleClick: function (event, treeId, treeNode, clickFlag) {
-                    console.log('double-click');
-                },
                 onCheck:function (e, treeId, treeNode) {
-
                     selectedJobs = [];
                     var jobnodes = $.fn.zTree.getZTreeObj("treeDemo").getNodesByParam('level', 2);
                     for(var i = 0 ; jobnodes!=null && i< jobnodes.length ; i++){
