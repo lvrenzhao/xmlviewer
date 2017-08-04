@@ -565,10 +565,4 @@ function adjustXMLForZBTB() {
         $(this).attr("LawfeeAmount",LawfeeAmount);
     });
     $(xmldata).find("JobList").appendTo($(xmldata).find("Building"));
-    console.log(xmldata)
-    // 1，2，3，4，12
-    // Amount="38263630.37"
-    // LawfeeAmount="530978.61"
-    // SafetyAndCivilizationMeasuresAmount="1333204.48"
-    // TaxAmount="4215196.15"
 }

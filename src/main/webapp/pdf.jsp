@@ -566,6 +566,12 @@
         var setting2 = {
             check: {enable: true},
             callback: {
+                onClick: function (event, treeId, treeNode, clickFlag) {
+                    console.log('click');
+                },
+                onDoubleClick: function (event, treeId, treeNode, clickFlag) {
+                    console.log('double-click');
+                },
                 onCheck:function (e, treeId, treeNode) {
 
                     selectedJobs = [];
