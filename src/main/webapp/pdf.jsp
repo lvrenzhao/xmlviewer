@@ -31,8 +31,9 @@
                     return;
                 }
                 $("#displayOnce").hide();
-                $("#data").val(JSON.stringify(getPrintModal()))
-                $("#noNumberPages").val(noNumberPages)
+                $("#data").val(JSON.stringify(getPrintModal()));
+                $("#noNumberPages").val(noNumberPages);
+                $("#watermarks").val(parent.base64img_sy);
 //                console.log(getPrintModal());
                 $("#btn_post_submit").trigger("click");
                 layer.msg("因为数据量大，生成PDF可能需要一点时间。");
@@ -836,8 +837,9 @@
         <iframe class="pdfviewer" id="pdfviewer" name="iframe_pdfviewer" width="100%" height="100%" src="" frameborder="0"  seamless></iframe>
     </div>
 <form id="hid_from" name="hid_form" action="${ctx}/pdf.do" method="post" target="iframe_pdfviewer">
-    <<input type="hidden" name="data" id="data">
-    <<input type="hidden" name="noNumberPages" id="noNumberPages">
+    <input type="hidden" name="data" id="data" />
+    <input type="hidden" name="noNumberPages" id="noNumberPages" />
+    <input type="text" name="watermarks" id="watermarks" />
     <input type="submit" value="Submit" id="btn_post_submit" />
 </form>
 <input accept="image/*" name="upimage" id="upload_file" type="file">

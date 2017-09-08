@@ -5,6 +5,7 @@ var jsonleveltwotree = [{name:"单位工程造价摘要",id:"1"},{name:"分部�
                         ,{name:"措施项目费计算表(一)"},{name:"措施项目费计算表(二)"}];
 var zNodes;
 var base64img;
+var base64img_sy="";
 
 var threeNodes = [{ id:1, pId:0, name:"常规检查", open:true,nocheck:true},
     { id:11, pId:1, name:"空数据"},
@@ -18,6 +19,7 @@ $(function(){
 
     var xmlurl = getUrlParam('xmlurl');
     var ewmurl = getUrlParam('ewmurl');
+    var syurl = getUrlParam("syurl");
     if(xmlurl){
         $.ajax({
             type: 'GET',
@@ -36,6 +38,11 @@ $(function(){
         // console.log(ewmurl)
         convertImgToBase64(ewmurl, function(base64Img){
             base64img = base64Img.substr(base64Img.indexOf(",")+1,base64Img.length)
+        });
+    }
+    if(syurl){
+        convertImgToBase64(syurl, function(base64Img){
+            base64img_sy = base64Img.substr(base64Img.indexOf(",")+1,base64Img.length)
         });
     }
     $('#openfile').change(function () {

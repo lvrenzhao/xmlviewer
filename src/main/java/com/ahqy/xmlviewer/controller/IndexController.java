@@ -41,14 +41,14 @@ public class IndexController {
 	}
 
 	@RequestMapping(value = "/pdf", method = {RequestMethod.GET, RequestMethod.POST})
-	public void pdf(HttpServletResponse response,String data,String noNumberPages) {
+	public void pdf(HttpServletResponse response,String data,String noNumberPages,String watermarks) {
 		response.setContentType("application/pdf");
 		String filename = DateFormatUtils.format(new Date(), "yyyyMMddHHmmss");
 		response.setHeader("Content-Disposition", "filename="+filename+".pdf");
 		try{
 			Document document = new Document(PageSize.A4);
 			PdfWriter writer = PdfWriter.getInstance(document, response.getOutputStream());
-			this.setFooter(writer,noNumberPages);
+			this.setFooter(writer,noNumberPages,watermarks);
 			writer.setFullCompression();
 			writer.setPdfVersion(PdfWriter.VERSION_1_4);
 			document.open();
@@ -1127,12 +1127,13 @@ public class IndexController {
 		}
 	}
 
-	private void setFooter(PdfWriter writer,String noNumberPages) throws DocumentException, IOException {
+	private void setFooter(PdfWriter writer,String noNumberPages,String watermarks) throws DocumentException, IOException {
 //HeaderFooter headerFooter = new HeaderFooter(this);
 //更改事件，瞬间变身 第几页/共几页 模式。
 		PdfReportM1HeaderFooter headerFooter = new PdfReportM1HeaderFooter();//就是上面那个类
 		try {
 			headerFooter.setNoNumberPages(Integer.parseInt(noNumberPages));
+			headerFooter.setWatermarks(watermarks);
 		}catch (Exception ex){
 			ex.printStackTrace();
 		}

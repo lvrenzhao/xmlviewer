@@ -2,19 +2,9 @@ package com.ahqy.xmlviewer.utils;
 
 import java.io.IOException;
 
-import com.itextpdf.text.Document;
-import com.itextpdf.text.DocumentException;
-import com.itextpdf.text.Element;
-import com.itextpdf.text.Font;
-import com.itextpdf.text.PageSize;
-import com.itextpdf.text.Phrase;
-import com.itextpdf.text.Rectangle;
-import com.itextpdf.text.pdf.BaseFont;
-import com.itextpdf.text.pdf.ColumnText;
-import com.itextpdf.text.pdf.PdfContentByte;
-import com.itextpdf.text.pdf.PdfPageEventHelper;
-import com.itextpdf.text.pdf.PdfTemplate;
-import com.itextpdf.text.pdf.PdfWriter;
+import com.itextpdf.text.*;
+import com.itextpdf.text.pdf.*;
+import org.apache.commons.codec.binary.Base64;
 
 public class PdfReportM1HeaderFooter extends PdfPageEventHelper {
 
@@ -51,6 +41,16 @@ public class PdfReportM1HeaderFooter extends PdfPageEventHelper {
 
     public void setNoNumberPages(int noNumberPages) {
         this.noNumberPages = noNumberPages;
+    }
+
+    private String watermarks;
+
+    public String getWatermarks() {
+        return watermarks;
+    }
+
+    public void setWatermarks(String watermarks) {
+        this.watermarks = watermarks;
     }
 
     /**
@@ -104,7 +104,18 @@ public class PdfReportM1HeaderFooter extends PdfPageEventHelper {
      */
     public void onEndPage(PdfWriter writer, Document document) {
 
+
+
         try {
+            //处理水印
+            if(org.apache.commons.lang3.StringUtils.isNoneBlank(watermarks)){
+                PdfContentByte canvas = writer.getDirectContentUnder();
+                Image image = Image.getInstance(Base64.decodeBase64(watermarks.getBytes()));
+                image.scaleAbsolute(PageSize.A4);
+                image.setAbsolutePosition(0, 0);
+                canvas.addImage(image);
+            }
+
             if (bf == null) {
                 bf = BaseFont.createFont(fontPath, BaseFont.IDENTITY_H, BaseFont.EMBEDDED);
             }
